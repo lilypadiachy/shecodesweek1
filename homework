@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 1 Homework - SheCodes</title>
+    <style>
+      h1 {
+        color: #1964d6;
+        font-size: 40px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        line-height: 50px;
+        padding: 10px;
+        margin: 15px;
+      }
+      h2 {
+        color: #000;
+        text-align: center;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 0px;
+        margin: 0px;
+      }
+      .mintemp {
+        font-weight: 100;
+      }
+
+      h3 {
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      ul {
+        list-style: none;
+        padding: 20px;
+        text-align: center;
+        margin: 10px;
+        line-height: 25px;
+      }
+      li {
+        list-style: none;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px 0.5px;
+        border-radius: 10px;
+        transition: all 200ms ease-in-out;
+        max-width: 400px;
+        margin: 0 auto;
+      }
+
+      div {
+        width: 400px;
+        height: 100px;
+        border-radius: 20px;
+        transition: background-color ease 200ms;
+      }
+
+      div:hover {
+        background-color: #fffbef;
+      }
+
+      .tomorrow {
+        display: block;
+        margin: 0 auto;
+      }
+
+      .saturday {
+        display: block;
+        margin: 0 auto;
+      }
+      .sunday {
+        display: block;
+        margin: 0 auto;
+      }
+      button {
+        display: block;
+        margin: 0 auto;
+        line-height: 3.5;
+        padding: 0 25px;
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff;
+        background-color: #1964d6;
+        border-radius: 30px;
+        border: 1px solid #1964d6;
+        border-color: #1964d6;
+        transition: all 200ms ease;
+      }
+      button:hover {
+        background-color: #fff;
+        color: #1964d6;
+        cursor: pointer;
+      }
+
+      h3 {
+        line-height: 30px;
+        margin: 0 auto;
+      }
+
+      h4 {
+        text-align: center;
+        font-family: monospace;
+        font-size: 16px;
+        font-weight: 10;
+      }
+      p {
+        font-size: 3em;
+        color: #1964d6;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <p>🌤</p>
+    <h1>Currently 21° in Tokyo</h1>
+    <h2><span class="mintemp">13°</span> / 23</h2>
+    <ul>
+      <div class="tomorrow">
+        <li><h3>🌧Tomorrow</h3></li>
+        <li>10° / <strong>22°</strong></li>
+      </div>
+      <br />
+      <div class="saturday">
+        <li><h3>🌥 Saturday</h3></li>
+        <li>15° / <strong>17°</strong></li>
+      </div>
+      <br />
+      <div class="sunday">
+        <li><h3>☀️ Sunday</h3></li>
+        <li>25° / <strong>28°</strong></li>
+      </div>
+    </ul>
+    <button>Change City</button>
+    <h4>Coded by Lilian Padiachy</h4>
+  </body>
+</html>
